@@ -215,6 +215,11 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
 }
 
+.btn-voir:hover
+{
+  background-color: #9fb7fa;
+}
+
 .btn-reserver:hover {
     background: #1d4ed8;
 }
