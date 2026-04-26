@@ -21,8 +21,8 @@
         </div>
         <nav class="nav-links">
             <a href="index.php">Accueil</a>
-            <a href="salles.php">Salles</a>
-            <a href="reservation.php">Reservation</a>
+            <a href="Salle.php">Salles</a>
+            <a href="Reservation.php">Reservation</a>
         </nav>
     </div>
 </header>
