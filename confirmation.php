@@ -1,6 +1,6 @@
 <?php
 $css_file = 'css/Reservation.css';
-require_once 'includes/header.php';
+require_once 'config/header.php';
 ?>
 
 <main>
@@ -9,7 +9,6 @@ require_once 'includes/header.php';
         <h1 class="page-title">Réservation confirmée !</h1>
         <p class="page-subtitle" style="margin-bottom: 2rem;">
             Votre réservation a bien été enregistrée.<br>
-            Vous recevrez une confirmation par email.
         </p>
         <a href="index.php" class="btn-confirm" style="display: inline-block; text-decoration: none;">
             Retour à l'accueil
@@ -17,4 +16,4 @@ require_once 'includes/header.php';
     </div>
 </main>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once 'config/footer.php'; ?>

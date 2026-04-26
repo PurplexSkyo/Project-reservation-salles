@@ -246,7 +246,7 @@ input:focus, select:focus {
   display: block;
   width: 100%;
   margin-top: 28px;
-  background: #93a8c9;
+  background: #0f274e;
   color: #fff;
   font-family: inherit;
   font-size: 15px;
@@ -260,7 +260,7 @@ input:focus, select:focus {
 }
  
 .btn-confirm:hover {
-  background: #7b93b8;
+  background: #0c59cc;
 }
  
 .btn-confirm:active {
