@@ -26,7 +26,7 @@ if (!$salle) {
 $equipements = explode(',', $salle['equipements']);
 
 $css_file = 'css/DetailSalle.css';
-require_once 'includes/header.php';
+require_once 'config/header.php';
 ?>
 
 <main>
@@ -84,4 +84,4 @@ require_once 'includes/header.php';
     </section>
 </main>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once 'config/footer.php'; ?>
