@@ -73,7 +73,7 @@ require_once 'config/header.php';
                         </ul>
 
                         <!-- Le bouton renvoie vers le formulaire avec l'id de la salle -->
-                        <a href="reservation.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-reserve">
+                        <a href="Reservation.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-reserve">
                             Réserver cette salle
                         </a>
                     </div>

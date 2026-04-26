@@ -1,6 +1,5 @@
 <?php
-// $css_file est défini dans chaque page AVANT d'inclure ce header
-// Ex : $css_file = "css/style.css";
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
