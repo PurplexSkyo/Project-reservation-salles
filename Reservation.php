@@ -45,7 +45,7 @@ require_once 'config/header.php';
 
 <main>
     <div class="page">
-        <a href="salles.php" class="return">⇦ Retour aux Salles</a>
+        <a href="Salle.php" class="return">⇦ Retour aux Salles</a>
         <h1 class="page-title">Réserver une salle</h1>
         <p class="page-subtitle">Remplissez le formulaire pour réserver votre espace</p>
 
