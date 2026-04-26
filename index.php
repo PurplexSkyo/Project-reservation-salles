@@ -68,7 +68,7 @@ require_once 'config/header.php';
                             <p class="info-prix"><strong>€</strong> <?= number_format($salle['prix'], 0) ?>€ / h</p>
                         </div>
                         <div class="actions">
-                            <a href="DetailsSalle.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-voir">Voir la salle ⩥</a>
+                            <a href="DetailSalle.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-voir">Voir la salle ⩥</a>
                             <a href="Reservation.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-reserver">Réserver</a>
                         </div>
                     </div>
