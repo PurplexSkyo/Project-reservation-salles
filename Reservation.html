@@ -23,115 +23,87 @@
         </div>
     </header>
     <main>
-        <section class="hero_1">
-            <div class="container2">
-                <div class="father">
-                    <div class = "jesaispas1">
-                        <div class ="titre_presentation">
-                            <h1>Votre espace de travail <span class="blue">idéal</span></h1>
-                            <p>Signy Salles propose des espaces de coworking et des salles de réunion,<br> disponibles à la réservation en quelques clics.</p>
-                        </div>
-                        
-                        <div class = "voir_reserve">
-                            <a href="#" class="voir1">Voir nos salles</a>
-                            <a href="#" class="voir2">Réserver maintenant</a>
-                        </div>
-                    </div>
-
-                    <div class = "presentation">
-                        <div class="just">
-                            <h5>Wifi haut debit</h5>
-                            <p> Connexion fibre dans toutes les salles</p>
-                        </div>
-                        <div class="just">
-                            <h5>Flexible</h5>
-                            <p> Créneaux 2 heures, reservation instantanée</p>
-                        </div>
-                        <div class="just">
-                            <h5>Capacité adapté</h5>
-                            <p>Capacité de 2 à 25 personnes</p>
-                        </div>
-
-                    </div>
-                </div>
-
+    <div class="page">
+    <a href="#" class="return"> ⇦ Retour aux Salle</a>
+     <h1 class="page-title">Réserver une salle</h1>
+     <p class="page-subtitle">Remplissez le formulaire pour réserver votre espace</p>
+ 
+        <div class="card">
+    
+        
+        <div class="card-header">
+            <span class="card-header-title">Informations de réservation</span>
+        </div>
+    
+    
+        <form action="#" method="POST">
+    
+        
+            <div class="form-row">
+            <div class="form-group">
+                <label for="nom">Nom *</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
             </div>
-        </section>
-        <section class="hero_body">
-            <div class="container3">
-                <h1 style="text-align: center;">Nos espaces</h1>
-                <div class = "first_bar">
-                    <p class="desc">Décrouvrez nos salles les plus utilisée</p>
-                    <a href="#" class="jsp"> Voir toute nos salles ⩥ </a>                   
-                </div>
-                <div class="grid-grille">
-                    <div class="card">
-                        <div class="image-container">
-                            <img src="Img/Simple-image.jpg" alt="Salle Haussmann">
-                        </div>
-
-                        <div class="contenu">
-                            <h4>Salle Haussmann</h4>
-                            <p class="desc-texte">Salle de réunion élégante avec vue sur le boulevard, idéale pour vos réunions stratégiques...</p>
-                            
-                            <div class="infos-ligne">
-                                <p class="info-item">👤 12 pers.</p>
-                                <p class="info-prix"><strong>€</strong> 45€ / h</p>
-                            </div>
-
-                            <div class="actions">
-                                <a href="#" class="btn-voir">Voir la salle ⩥</a>
-                                <a href="#" class="btn-reserver">Réserver</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <div class="image-container">
-                            <img src="Img/Simple-Image2.jpg" alt="Photo de bureau">
-                        </div>
-
-                        <div class="contenu">
-                            <h4>Autditorium Mitadru</h4>
-                            <p class="desc-texte">Auditorium moderne de 50 places avec scène et système audio-visuel professionnel. Parfait pour...</p>
-                            
-                            <div class="infos-ligne">
-                                <p class="info-item">👤 30 pers.</p>
-                                <p class="info-prix"><strong>€</strong> 25€ / h</p>
-                            </div>
-
-                            <div class="actions">
-                                <a href="#" class="btn-voir">Voir la salle ⩥</a>
-                                <a href="#" class="btn-reserver">Réserver</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <div class="image-container">
-                            <img src="Img/Simple-Image3.jpg" alt="Salle Haussmann">
-                        </div>
-
-                        <div class="contenu">
-                            <h4>Grande  Limiskan</h4>
-                            <p class="desc-texte">Grand espace de coworking lumineux au cœur de Paris. Ambiance dynamique avec des postes de...</p>
-                            
-                            <div class="infos-ligne">
-                                <p class="info-item">👤 12 pers.</p>
-                                <p class="info-prix"><strong>€</strong> 45€ / h</p>
-                            </div>
-
-                            <div class="actions">
-                                <a href="#" class="btn-voir">Voir la salle ⩥</a>
-                                <a href="#" class="btn-reserver">Réserver</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+            <div class="form-group">
+                <label for="prenom">Prénom *</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
             </div>
-        </section>
+            </div>
+    
+            <!-- Email -->
+            <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+            </div>
+    
+            <!-- Salle -->
+            <div class="form-group">
+            <label for="salle">Salle *</label>
+            <div class="select-wrap">
+                <select id="salle" name="salle" required>
+                <option value="haussmann">Salle Haussmann — 12 pers. — 45€/h</option>
+                <option value="rivoli">Salle Rivoli — 8 pers. — 35€/h</option>
+                <option value="vendome">Salle Vendôme — 20 pers. — 65€/h</option>
+                </select>
+            </div>
+            </div>
+    
+            <!-- Date + Créneau -->
+            <div class="form-row">
+            <div class="form-group">
+                <label for="date">Date *</label>
+                <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-group">
+                <label for="creneau">Créneau *</label>
+                <div class="select-wrap">
+                <select id="creneau" name="creneau" required>
+                    <option value="" disabled selected>Choisir un créneau</option>
+                    <option value="9h-10h">09h00 -- 11h05</option>
+                    <option value="10h-11h">11h15 -- 13h05</option>
+                    <option value="11h-12h">13h15 -- 15h05</option>
+                    <option value="14h-15h">15h15 -- 17h05</option>
+                    <option value="15h-16h">17h15 -- 19h05</option>
+                </select>
+                </div>
+            </div>
+            </div>
+    
+            <!-- Nombre de personnes -->
+            <div class="form-group">
+            <label for="personnes">Nombre de personnes *</label>
+            <div class="input-icon-wrap">
+                <input type="number" id="personnes" name="personnes"
+                    placeholder="Ex: 5" min="1" max="50" required />
+            </div>
+            </div>
+    
+            <!-- Bouton -->
+            <button type="submit" class="btn-confirm">Confirmer la réservation</button>
+    
+        </form>
+        </div>
+  </div>
     </main>
     <footer>
         <p class = "copyright "> © 2026 Signy Salles — Tous droits réservés</p>
