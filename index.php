@@ -20,7 +20,7 @@ require_once 'config/header.php';
                         <p>Signy Salles propose des espaces de coworking et des salles de réunion,<br> disponibles à la réservation en quelques clics.</p>
                     </div>
                     <div class="voir_reserve">
-                        <a href="salles.php" class="voir1">Voir nos salles</a>
+                        <a href="Salle.php" class="voir1">Voir nos salles</a>
                         <a href="reservation.php" class="voir2">Réserver maintenant</a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ require_once 'config/header.php';
             <h1 style="text-align: center;">Nos espaces</h1>
             <div class="first_bar">
                 <p class="desc">Découvrez nos salles les plus utilisées</p>
-                <a href="salles.php" class="jsp">Voir toutes nos salles ⩥</a>
+                <a href="Salle.php" class="jsp">Voir toutes nos salles ⩥</a>
             </div>
 
             <div class="grid-grille">
@@ -68,8 +68,8 @@ require_once 'config/header.php';
                             <p class="info-prix"><strong>€</strong> <?= number_format($salle['prix'], 0) ?>€ / h</p>
                         </div>
                         <div class="actions">
-                            <a href="salle.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-voir">Voir la salle ⩥</a>
-                            <a href="reservation.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-reserver">Réserver</a>
+                            <a href="Salle.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-voir">Voir la salle ⩥</a>
+                            <a href="Reservation.php?id=<?= (int)$salle['id_salle'] ?>" class="btn-reserver">Réserver</a>
                         </div>
                     </div>
                 </div>
