@@ -33,7 +33,7 @@ require_once 'config/header.php';
     <section>
         <div class="container2">
             <div class="page">
-
+                <a href="Salle.php" class="return">Retour aux salles</a>
                 <!-- Image hero de la salle -->
                 <div class="hero">
                     <img src="Img/<?= htmlspecialchars($salle['image']) ?>"
