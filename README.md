@@ -13,6 +13,7 @@ Ce projet est un site web permettant la réservation de salles.
 git clone https://github.com/PurplexSkyo/Project-reservation-salles.git
 cd Project-reservation-salles
 ```
+
 - ## Avoir Xampp
 
     Ce projet necessite le programme XAMPP afin de fonctionnée sur le web.
