@@ -12,8 +12,15 @@ CREATE TABLE `reservation` (
   `id_salle` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+-- Déchargement des données de la table `reservation`
+--
 
--- Coopier dans la table de réservation ( format sql)
+INSERT INTO `reservation` (`id_reservation`, `nom`, `prenom`, `email`, `num_tel`, `date_resa`, `creneau`, `nb_personnes`, `id_salle`) VALUES
+(5, 'Poulain', 'Natan', 'npoulain678@gmail.com', 0, '2026-05-02', '13h15-15h05', 1, 2),
+(6, 'Poulain', 'Natan', 'npoulain678@gmail.com', 0, '2026-04-30', '13h15-15h05', 4, 2);
+
+
+-- Copier dans la table de réservation ( format sql)
 CREATE TABLE `salle` (
     `id_salle` INT(11) NOT NULL AUTO_INCREMENT,
     `nom` VARCHAR(100) NOT NULL,
