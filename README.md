@@ -1,4 +1,4 @@
-# Bienvenue sur mon répertoire du site de réservation de salle
+# répertoire du site de réservation de salle
 
 ## Description
 Ce projet est un site web permettant la réservation de salles.
@@ -10,12 +10,31 @@ Ce projet est un site web permettant la réservation de salles.
 
 ## Installation
 ```bash
-git clone <repository-url>
+git clone https://github.com/PurplexSkyo/Project-reservation-salles.git
 cd Project-reservation-salles
 ```
+- ## Avoir Xampp
 
-## Utilisation
-[À compléter]
+    Ce projet necessite le programme XAMPP afin de fonctionnée sur le web.
+    ### Qu'est ce que Xampp
+    XAMPP est l'environnement de développement PHP le plus populaire. XAMPP est une distribution Apache entièrement gratuite et facile à installer contenant MySQL, PHP et Perl. Le paquetage open source XAMPP a été mis au point pour être incroyablement facile à installer et à utiliser.
 
-## Licence
-[À spécifier]
+    ### Téléchargement
+    Cliquez sur ce lien :   https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download  
+    ( Cela vous redirige vers l'application Xampp )
+
+    Une fois installé, double click sur le fichier puis progresser dans l'installation
+
+    ### Préparation 
+    
+    Cliquer sur la barre de recherche windows et entrer << XAMPP >>
+    Vous deviez apercervoir << XAMPP Control Panel >>
+    Faites un clique droit dessus et cliquer sur  << Exécuter en tant qu'administrateur >>
+    Cliquer sur << OUI >>
+
+    Cliquer sur START de APACHE ET MYSQL dans la colonne << Actions >>
+
+## Accès au site  
+Pour accéder au site veuillez entrer ceci dans la barre de recherche   
+        
+        http://localhost:3000/index.php
