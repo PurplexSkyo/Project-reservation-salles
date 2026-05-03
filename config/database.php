@@ -15,3 +15,4 @@ try {
   die('Connexion impossible : ' . $e->getMessage());
 }
 ?>
+
