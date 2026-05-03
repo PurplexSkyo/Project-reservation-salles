@@ -27,14 +27,21 @@ cd Project-reservation-salles
 
     ### Préparation 
     
-    Cliquer sur la barre de recherche windows et entrer << XAMPP >>
-    Vous deviez apercervoir << XAMPP Control Panel >>
+    Cliquer sur la barre de recherche windows et entrer << XAMPP >>  
+    Vous deviez apercervoir << XAMPP Control Panel >>  
     Faites un clique droit dessus et cliquer sur  << Exécuter en tant qu'administrateur >>
     Cliquer sur << OUI >>
 
     Cliquer sur START de APACHE ET MYSQL dans la colonne << Actions >>
 
-## Accès au site  
-Pour accéder au site veuillez entrer ceci dans la barre de recherche   
-        
-        http://localhost:3000/index.php
+
+## Copier les dossiers dans de XAMPP
+Aller dans le dossier suivant :
+
+    C:\xampp\htdocs
+
+Crée un fichier et nommé le comme vous le vouliez  
+Copiez les fichiers et dossier du projet et copiez les dans le fichier que vous aviez crée  
+Une fois ceci fais entrez ceci :
+
+    http://localhost/nom-de-votre-dossier/index.php
