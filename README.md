@@ -45,3 +45,14 @@ Copiez les fichiers et dossier du projet et copiez les dans le fichier que vous 
 Une fois ceci fais entrez ceci :
 
     http://localhost/nom-de-votre-dossier/index.php
+
+## PHPmyadmin
+
+Une fois sur phpmyadmin crée la base de donnée workspace_connect  
+Une fois fais, crée la table workspace_connect  
+Copier dans le fichier worskpact_connect.sql la table réservation  
+Crée une nouvelle table et faite de même pour salles en ajoutant bien les insertion des données des salles.
+
+#        J'espere que tout cela vous aura bien aidée
+
+
