@@ -42,7 +42,7 @@ Aller dans le dossier suivant :
 
 Crée un fichier et nommé le comme vous le vouliez  
 Copiez les fichiers et dossier du projet et copiez les dans le fichier que vous aviez crée  
-Une fois ceci fais entrez ceci :
+Une fois ceci fais entrez ceci dans la barre web :
 
     http://localhost/nom-de-votre-dossier/index.php
 
