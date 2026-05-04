@@ -9,6 +9,11 @@ Ce projet est un site web permettant la réservation de salles.
 - Interface utilisateur intuitive
 
 ## Installation
+
+- Ouvrer l'invite de commande windows ( tapez : cmd )
+
+- Copiez - Collée ces commandes ci-dessous 
+
 ```bash
 git clone https://github.com/PurplexSkyo/Project-reservation-salles.git
 cd Project-reservation-salles
